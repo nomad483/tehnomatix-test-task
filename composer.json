@@ -1,0 +1,29 @@
+{
+    "name": "nomad483/technomatix-test-task",
+    "description": "A PHP console application to calculate the cost of trips using various vehicles.",
+    "type": "project",
+    "require": {
+        "php": "^8.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mykolazakliuka",
+            "email": "nicolaizakluka@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "11.2.7"
+    }
+}
